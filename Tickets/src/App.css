@@ -1,0 +1,15 @@
+/* Global css, typ backgrundfärg samt andra färger och */
+* {
+  text-decoration: none;
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+
+h1 {
+  font-family: 'Sansita', sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 2.3rem;
+  color: #F56B9A;
+}

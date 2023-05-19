@@ -1,0 +1,70 @@
+.eventsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    column-gap: 1rem;
+    margin-left: 2rem;
+    background-color: #231F42;
+}
+
+.dateEvents {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    border-style: solid;
+    padding: 1rem;
+}
+
+.nameEvents {
+    grid-column: 2/2;
+    grid-row: 1/1;
+    color: #F56B9A;
+}
+
+
+.priceEvents {
+    grid-column: 3/3;
+    grid-row: 3/3;
+    border-bottom: 1px solid rgb(97, 83, 83);
+    color: #37AEAB;
+}
+
+.whereEvents {
+    grid-column: 2/3;
+    grid-row: 3/2;
+}
+
+.hourEvents {
+    grid-column: 2/2;
+    grid-row: 3/4;
+    border-bottom: 1px solid rgb(97, 83, 83);
+
+}
+
+/* 
+@media (max-width: 500px) {
+    .dateEvents {
+        visibility: hidden;
+        display: none;
+    }
+
+    .nameEvents {
+        visibility: hidden;
+        display: none;
+    }
+
+
+    .priceEvents {
+        visibility: hidden;
+        display: none;
+    }
+
+    .whereEvents {
+        visibility: hidden;
+        display: none;
+    }
+
+    .hourEvents {
+        visibility: hidden;
+        display: none;
+    }
+} */

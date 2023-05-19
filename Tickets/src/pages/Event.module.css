@@ -1,0 +1,125 @@
+body {
+    background-color: #231F42;
+}
+.goBack {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    width: 2rem;
+    height: 2rem;
+}
+.heading {
+    margin: 0;
+}
+
+.sectionWrap {
+    background-color: #231F42;
+    text-align: center;
+    align-items: center;
+    height: 85vh;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.eventName {
+    font-family: 'Sansita', sans-serif;
+    font-style: italic;
+    font-size: 2.7rem;
+    color: #F56B9A;
+    margin: 0;
+}
+
+
+
+.subheading {
+    width: 70%;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.7);
+    font-style: italic;
+    margin: 0;
+}
+
+.infoWrap {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.when {
+    font-size: 16px;
+    color: #37AEAB;
+    margin: 0;
+
+}
+
+.where {
+    color: rgba(255, 255, 255, 0.7);
+    font-style: italic;
+    margin: 0;
+
+}
+
+.bigNumContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 75%;
+    border: 1px solid #F56B9A;
+}
+
+.numContainer {
+    font-size: 1.2rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.numContainer button {
+    cursor: pointer;
+    font-size: 2rem;
+    width: 25%;
+    border: none;
+    border-top: 1px solid #F56B9A;
+    background-color: #231F42;
+
+}
+
+.p {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0;
+    border-top: 1px solid #F56B9A;
+    border-left: 1px solid #F56B9A;
+    border-right: 1px solid #F56B9A;
+}
+
+.amount {
+    margin: 2rem;
+    font-size: 32px;
+    text-shadow: 1px 1px 0px #F56B9A;
+
+}
+
+.button {
+    width: 90%; 
+    border: none;
+    border-radius: 2px;
+    padding: 1rem;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    background-color: #37AEAB;
+    cursor: pointer;
+}
+
+.btnLink {
+    width: 90%;
+}

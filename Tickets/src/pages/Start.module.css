@@ -1,0 +1,20 @@
+.containerStart {
+    background-color: #231F42;
+}
+
+.logoImg {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.logoName {
+    text-align: center;
+    font-size: 3rem;
+    color: #F56B9A;
+}
+
+.logoSlogan {
+    text-align: center;
+}

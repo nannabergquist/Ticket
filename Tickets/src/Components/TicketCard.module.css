@@ -1,0 +1,89 @@
+.ticketsNamePage {
+    text-align: center;
+    margin-top: 5%;
+    background: transparent;
+}
+
+.backgroundColor {
+    box-shadow: 1px 2px 10px #231F42;
+    border-radius: 5px;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+
+.ticketsAmount {
+    color: #F56B9A;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 1.5rem;
+    padding: 0.5rem;
+    background: transparent;
+}
+
+.ticketsName {
+    text-align: center;
+    font-size: 3em;
+    border-bottom-style: dotted;
+    border-bottom: 3px dotted lightslategray;
+    background: white;
+    color: #F56B9A;
+    font-family: 'Sansita', sans-serif;
+    font-style: italic;
+}
+
+.ticketsWhere,
+.ticketsWhereMain {
+    text-align: left;
+    margin-left: 4rem;
+    padding-bottom: 1rem;
+    color: black;
+    background: transparent;
+}
+
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: normal;
+    text-align: center;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    color: lightslategray;
+    background: transparent;
+}
+
+.ticketsWhen {
+    grid-row: 2 / 3;
+    background: transparent;
+}
+
+.ticketsFrom {
+    grid-row: 2/2;
+    background: transparent;
+}
+
+.gridContainer>p {
+    color: black;
+    background: transparent;
+}
+
+.gridContainer>h3 {
+    color: black;
+    background: transparent;
+}
+
+.ticketsSection {
+    text-align: left;
+    margin-left: 4rem;
+    margin-top: 2%;
+    color: black;
+    background: transparent;
+}
+
+.ticketsImg {
+    width: 100%;
+}

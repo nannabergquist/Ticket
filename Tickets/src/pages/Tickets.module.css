@@ -1,0 +1,60 @@
+.goBack {
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+
+.ticketsNamePage {
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.ticketsPage {
+    background: linear-gradient(0deg, rgba(35, 31, 66, 1) 0%, rgba(245, 107, 154, 1) 100%) no-repeat;
+    
+}
+
+.ticketWrap {
+    padding-top: 4rem;
+    
+}
+
+.btnWrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3.5rem;
+}
+
+.prevBtn {
+    visibility: hidden;
+    width: 35%;
+    border: none;
+    border-radius: 2px;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #37AEAB;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.nextBtn {
+    visibility: hidden;
+    width: 35%;
+    border: none;
+    border-radius: 2px;
+    padding: 1rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #37AEAB;
+    cursor: pointer;
+    margin-top: 1rem;
+}

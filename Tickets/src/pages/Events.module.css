@@ -1,0 +1,23 @@
+.mainName {
+    color: #F56B9A;
+    text-align: center;
+}
+
+/* Nanna, jag gjorde en ändring här så width blev responsiv */
+.container {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin: 0;
+    background-color: #231F42;
+}
+
+/* Nanna, jag gjorde en ändring här så width blev responsiv */
+.inputfield {
+    background-color: #231f42ce;
+    padding: 1em 1.5em;
+    width: 80%;
+    border-radius: 5px;
+    border: solid #2d2755 4px;
+    margin: 2rem auto;
+}
